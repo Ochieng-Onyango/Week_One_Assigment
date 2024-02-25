@@ -1,0 +1,8 @@
+name = input("Enter your name: ")
+# print(name)
+age = int(input("How old are you? "))
+# print(age)
+location = input("Where are you from? ")
+# print(location)
+# print("Hello ", name, "you are ", age, " years old, and you are from ", location,".")
+print(f"Hello {name}, you are {age} years old, and you are from {location}.")
